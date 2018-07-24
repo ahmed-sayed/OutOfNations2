@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Out Of Nations</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_phrases">Phrases</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_colors">Colors</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_numbers">Numbers</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_family">Family</string>
+
+    <string name="category_food">Food And Drinks </string>
+
+    <string name="category_transport">Transport</string>
+
+    <string name="category_places">Places</string>
+
+    <string name="category_weeksAndMonthes">Weekdays And Months </string>
+
+    <string name="category_Clothes">Clothes</string>
+
+    <string name="category_Home">Home</string>
+
+
+    <string name="source_lang_prompt">Choose Source Language</string>
+    <string name="destination_lang_prompt">Choose Destination Language</string>
+    <string-array name="Languages_array">
+        <item>Arabic</item>
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+
+</resources>

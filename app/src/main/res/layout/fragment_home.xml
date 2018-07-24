@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.outofnations.HomeFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center_horizontal"
+        android:text=" Choose your Languages "
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner_Source_lang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:prompt="@string/source_lang_prompt"
+            android:spinnerMode="dialog">
+
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/spinner_Destination_lang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:entries="@array/Languages_array"
+            android:gravity="center_vertical"
+            android:prompt="@string/destination_lang_prompt"
+            android:spinnerMode="dialog">
+
+        </Spinner>
+    </LinearLayout>
+
+</LinearLayout>
